@@ -21,7 +21,7 @@ tikTakBoom = {
 
         
 
-        this.needRightAnswers = 3;
+        this.needRightAnswers = 19;
     },
 
     
@@ -118,6 +118,8 @@ tikTakBoom = {
                     },
                     1000,
                 )
+            
+                }
             } else {
                 this.finish('lose');
             }

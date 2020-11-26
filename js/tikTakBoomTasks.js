@@ -97,9 +97,59 @@ const tasks = `
             "answer2": { "result": false, "value": "Удаляет элемент из конца массива" }
         },
         {
-            "question": "Функция parseFloat()преобразуеттекст в",
+            "question": "Функция parseFloat() преобразует текст в",
             "answer1": { "result": false, "value": "Целое число" },
             "answer2": { "result": true, "value": "Вещественное число" }
+        },
+        {
+            "question": "Как правильно вставить внешний скрипт?",
+            "answer1": { "result": false, "value": "<script href='sample1.js'>" },
+            "answer2": { "result": true, "value": "<script src='sample1.js'>" }
+        },
+        {
+            "question": "Как вызвать функцию 'myFunction'?",
+            "answer1": { "result": false, "value": "call function myFunction()" },
+            "answer2": { "result": true, "value": "myFunction()" }
+        },
+        {
+            "question": "Как найти наибольшее из двух чисел?",
+            "answer1": { "result": false, "value": "Math.ceil(x, y)" },
+            "answer2": { "result": true, "value": "Math.max(x, y)" }
+        },
+        {
+            "question": "Как найти наибольшее из двух чисел?",
+            "answer1": { "result": false, "value": "Math.ceil(x, y)" },
+            "answer2": { "result": true, "value": "Math.max(x, y)" }
+        },
+        {
+            "question": "Какой из приведенных кодов изменит содержание HTML елемента: <p id='demo'>This is a demo text.</p> ",
+            "answer1": { "result": false, "value": "$demo.innerHTML = 'Hello World!';" },
+            "answer2": { "result": true, "value": "document.getElementById('demo').innerHTML = 'Hello World!';" }
+        },
+        {
+            "question": "Что вернет сравнение 0.1 + 0.2 === 0.3?",
+            "answer1": { "result": false, "value": "true" },
+            "answer2": { "result": true, "value": "false" }
+        },
+        {
+            "question": "Чему равно такое выражение ?  [] + false - null + true",
+            "answer1": { "result": false, "value": "undefined" },
+            "answer2": { "result": true, "value": "NaN" }
+        },
+        {
+            "question": "Что выведет этот код ? alert( '1'[0] ); ",
+            "answer2": { "result": false, "value": "0" },
+            "answer1": { "result": true, "value": "1" }
+        },
+        {
+            "question": "Что содержит не инициализированная переменная?",
+            "answer1": { "result": false, "value": "null" },
+            "answer2": { "result": true, "value": "undefined" }
+        },
+        {
+            "question": "Что делает оператор === ?",
+            "answer1": { "result": false, "value": "Сравнивает по ссылке, а не по значению." },
+            "answer2": { "result": true, "value": "Сравнивает без приведения типа." }
         }
     ]
 `;
