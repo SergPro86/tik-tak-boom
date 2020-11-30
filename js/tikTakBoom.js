@@ -118,8 +118,6 @@ tikTakBoom = {
                     },
                     1000,
                 )
-            
-                }
             } else {
                 this.finish('lose');
             }
